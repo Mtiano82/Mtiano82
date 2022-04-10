@@ -1,0 +1,40 @@
+.LogoBorde {
+    width: 70%;
+    max-width: 180px;
+    height: auto;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 100px;
+    border-style: double;
+}
+
+
+
+
+.color {
+
+    background-color:dimgrey;
+
+}
+
+.color1 {
+
+    background:rgb(225, 207, 8)
+
+}
+
+.imgtamaño {
+    width: 30px;
+    height: 30px;
+}
+
+.espacio {
+    width: 100%;
+    height: 50px;
+
+}
+
+
+
+
+
