@@ -9,89 +9,96 @@
     <link rel="stylesheet" href="./css/main.css">
 
 </head>
-<body>
+<body style="background-color: darkgoldenrod;">
 
     <header>
         <!-- Background image -->
-        
-        <div class="grid">
+        <div
+          class="p-5 text-center bg-image"
+          style="
+            background-image: url('img/imagenpr1');
+            width: 100%;
+            height: 380px;">
 
-
-            <div class="portada">
+          <div class="mask" style="background-color: rgba(174, 243, 243, 0.425);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-warning">
+                <a href="Index.html">
+                    <img class="LogoBorde" src="img/Logo pato.jpeg">
+                </a>
+                <h1 class="mb-3">El Pato Renato</h1>
+                <h4 class="mb-3">Chacinados y cortes frescos</h4>
+               
                 
-                <div>
-                    <!--
-                    <a href=""><img class="portadag" src="img/imagenpr1" alt="Portagag" ></a>
-                        -->
-                   
-                    <a href="Index.html"><img class="LogoBorde2" src="img/Logo pato.jpeg" alt="LogoBorde"></a>
-                    <div class="espacio"></div>
-                    <div class="espacio"></div>
-                    <h1 class="tex-item">El Pato Renato</h1>
-                    <h4 class="tex-item">Chacinados y cortes frescos</h4>
-                    <div class="espacio"></div>
-                    <hr>
-                    <h5>CONOCE NUESTROS PRODUCTOS</h5>
-                
-                </div>    
+              </div>
             </div>
-
-         
-      
-            <div class="hover-items">
-
-            <figure class="imgprod">
-                <img src="img/Salchichaparri.webp" alt="sample45" />
-                <figcaption>
-                  <h3>FRESCOS</h3>
-                  <p>Chorizos parrilleros - Salchicas parrilleras</p>
-                </figcaption>
-                <a href="#"></a>
-            </figure>
-        
-            <figure class="imgprod"><img src="img/Morcilla.jpg" alt="sample77" />
-                <figcaption>
-                  <h3>ESCALDADOS</h3>
-                  <p>Morcilla-Queso de cerdo-Mortadela-Lomo cocido-Jamon cocido -</p>
-                </figcaption>
-                <a href="#"></a>
-            </figure>
-        
-            <figure class="imgprod"><img src="img/Picada.jpg" alt="sample99" />
-                <figcaption>
-                  <h3>SECOS</h3>
-                  <p>Pecheritas-Longanizas-Salama-Sobresada-Cantimpalo</p>
-                </figcaption>
-                <a href="#"></a>
-            </figure>
-
-            <figure class="imgprod"><img src="img/imagenpr4" alt="sample99" />
-                <figcaption>
-                  <h3>CURADOS EN SAL</h3>
-                  <p>Jamon crudo</p>
-                </figcaption>
-                <a href="#"></a>
-            </figure>
-
-            <figure class="imgprod"><img src="img/Parilla.jpg" alt="sample99" />
-                <figcaption>
-                  <h3>CORTES DE CERDO</h3>
-                  <p>Chuletas-matambre-costillas</p>
-                </figcaption>
-                <a href="#"></a>
-            </figure>
-
-            </div>
-
-
-
-        </div>             
-              
-      
+          </div>
+        </div>
         <!-- Background image -->        
       </header>
 
-    
+    <div class="container">
+
+        <div class="espacio"></div>
+        <h1>Productos</h1>
+        
+
+        <div class="btn-group-vertical" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Frescos
+          </button>
+          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <a class="dropdown-item" href="#">Chorizos parrilleros link</a>
+            <a class="dropdown-item" href="#">Salchicas parrilleras link</a>
+          </div>
+
+          <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Escaldados
+          </button>
+          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <a class="dropdown-item" href="#">Morcilla Criolla link</a>
+            <a class="dropdown-item" href="#">Morcilla dulce link</a>
+            <a class="dropdown-item" href="#">Queso de cerdo link</a>
+            <a class="dropdown-item" href="#">Mortadela link</a>
+            <a class="dropdown-item" href="#">Lomo cocido link</a>
+            <a class="dropdown-item" href="#">Jamon Cocido link</a>
+          </div>
+
+          <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            secos
+          </button>
+          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <a class="dropdown-item" href="#">Pecheritas link</a>
+            <a class="dropdown-item" href="#">Longanizas link</a>
+            <a class="dropdown-item" href="#">Salame link</a>
+            <a class="dropdown-item" href="#">Sobresada en tripa link</a>
+            <a class="dropdown-item" href="#">Sobresada en frascos link</a>
+            <a class="dropdown-item" href="#">Cantimpalo link</a>
+            <a class="dropdown-item" href="#">Salama de Milan link</a>
+          </div>
+
+          <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Curados en Sal
+          </button>
+          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <a class="dropdown-item" href="#">Seleccionar</a>
+
+          </div>
+
+          <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Cortes de cerdo
+          </button>
+          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <a class="dropdown-item" href="#">Seleccionar</a>
+
+          </div> 
+         
+                    
+        </div>
+        <div class="espacio"></div>
+
+    </div>
+
   
       
       
